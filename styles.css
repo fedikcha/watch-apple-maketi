@@ -51,6 +51,7 @@ img{
 /* BUTTON */
 .button{
   display: inline-block;
+  min-width: 260px;
   padding: 12px 38px;
   background-color: var(--primary);
   color: #fff;
@@ -60,6 +61,7 @@ img{
   text-transform: uppercase;
   text-decoration: none;
   border: 0;
+  text-align: center;
   transition: background-color 0.3s ease;
 }
 .button:hover{
@@ -187,12 +189,21 @@ img{
   line-height: 1.2;
   color: #000;
 }
+
+.lead-cta-white .lead-cta-heading{
+  color: #fff;
+}
 .lead-cta-text {
   padding-left: 37px;
   border-left: 3px solid #888;
   margin-top: 0;
   margin-bottom: 30px;
   color: #777;
+}
+
+.lead-cta-white .lead-cta-text{
+  color: #fff;
+  border-color: #fff;
 }
 
 
@@ -239,8 +250,38 @@ img{
     32px 0 0 0 #ddd;
 }
 
+/* PROMO */
+.promo {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.promo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.promo-img {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+}
 
 
+/* RUNNERS */
+.runners {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url("ikki-bola.jpg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.runners-lead-cta {
+  margin-left: auto;
+}
 
 
 
